@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    height: 100vh;
+    width: 1070px;
+    position: relative;
+}
+
+.header {
+    height: 100px;
+    width: 1070px;
+    background-color: grey;
+    padding: 25px 50px 25px 50px;
+}
+
+.box-one, 
+.box-two {
+    height: 645px;
+    width: 150px;
+    bottom: 0;
+    background: lightgrey;
+}
+
+.box-one {
+    float: left;
+}
+
+.box-two {
+    /* float: right; */
+    position: absolute;
+    right: -100px;
+}
+
+.footer {
+    background-color: grey;
+    width: 81.35%;
+    height: 10vh;
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+}
